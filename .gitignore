@@ -1,0 +1,10 @@
+# Nothing generated is ever committed: this tool only writes into the live
+# harness directories (~/.workbuddy, ~/.zcode, ~/.codex) or a --root you give it.
+node_modules/
+*.log
+*.bak
+*.bak-*
+*.sqlite-wal
+*.sqlite-shm
+.DS_Store
+Thumbs.db

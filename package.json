@@ -1,0 +1,29 @@
+{
+  "name": "harness-transfer",
+  "version": "1.0.0",
+  "description": "Migrate AI coding-assistant sessions between WorkBuddy, zcode, and the Codex/DeepSeek harness, with read-back verification.",
+  "bin": {
+    "harness-transfer": "bin/harness-transfer.js"
+  },
+  "main": "src/ir.js",
+  "scripts": {
+    "test": "node test/roundtrip.test.js"
+  },
+  "keywords": [
+    "session",
+    "migration",
+    "harness",
+    "transcript",
+    "workbuddy",
+    "zcode",
+    "codex",
+    "deepseek",
+    "jsonl"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {},
+  "private": false
+}
